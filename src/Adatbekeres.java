@@ -12,9 +12,9 @@ public class Adatbekeres
     int bOldal;
     aOldal = sc.nextInt();
     bOldal = sc.nextInt();
- 
+    
     sc.close();
- 
-    System.out.println("A téglalap területe: "+aOldal*bOldal*2);
+    //számolás 
+    System.out.println("A téglalap területe: "+aOldal*bOldal*2+"cm2");
   }
 }
